@@ -53,3 +53,7 @@ My Pipeline is explained in the series of steps below with intermediate images f
 
 1. Not hardcoding lane width mask and instead trying to find the region mask based on edges detected.
 2. Not hardcoding angles check for left lane line and right land line.
+
+### 4. Attribution
+1. Lots of weights were taken from the nanodegree course solutions.
+2. Stackoverflow for numpy related functions
