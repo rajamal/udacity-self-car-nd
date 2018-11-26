@@ -11,7 +11,7 @@ Delivarables
 * Code for the project is in P1.ipynb
 * Video output
   1. [Solid white right](./test_videos_output/solidWhiteRight.mp4)
-  2. [Solid yellow lefy](./test_videos_output/solidYellowLeft.mp4)
+  2. [Solid yellow left](./test_videos_output/solidYellowLeft.mp4)
 
 ---
 
@@ -37,7 +37,7 @@ My Pipeline is explained in the series of steps below with intermediate images f
 ![Hough Transformed](./intermediate/hough_solidWhiteRight.jpg)
 
 6. Drawing annotated images
-![Gray Scale](./intermediate/annotated_solidWhiteRight.jpg)
+![Annotated image](./intermediate/annotated_solidWhiteRight.jpg)
 
 
 
@@ -53,3 +53,7 @@ My Pipeline is explained in the series of steps below with intermediate images f
 
 1. Not hardcoding lane width mask and instead trying to find the region mask based on edges detected.
 2. Not hardcoding angles check for left lane line and right land line.
+
+### 4. Attribution
+1. Lots of weights were taken from the nanodegree course solutions.
+2. Stackoverflow for numpy related functions
