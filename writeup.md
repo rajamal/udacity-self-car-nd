@@ -31,12 +31,16 @@ My Pipeline is explained in the series of steps below with intermediate images f
 
 2. Gaussian smoothing
 ![Smoothened image](./intermediate/smooth_solidWhiteRight.jpg)
+
 3. Canny Edge detection
 ![Edges](./intermediate/edges_solidWhiteRight.jpg)
+
 4. Masking Interesting polygon region
 ![Masked edges](./intermediate/masked_edges_solidWhiteRight.jpg)
+
 5. Hough transform
 ![Hough Transformed](./intermediate/hough_solidWhiteRight.jpg)
+
 6. Drawing annotated images
 ![Gray Scale](./intermediate/annotated_solidWhiteRight.jpg)
 
@@ -44,12 +48,13 @@ My Pipeline is explained in the series of steps below with intermediate images f
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-1. Does not work well when we are travelling around the curves. Lane lines are curved
-2. Is very much dependent on lane width since we mask regions using hard coded parameters
+1. Is very much dependent on lane width since we mask regions using hard coded parameters
+2. Using hardcoded angles to filter out non lane edges is hacky
+3. Does not work well when we are travelling around the curves. Lane lines are curved
+4. Seems to have issues when there are shadows and color changes in the road, which leads to more edges detected. Since we try to fit line for all edges within certain degrees, we seem to fit wrong lines.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-1. One
-2. Two
-3. Three
+1. Not hardcoding lane width mask and instead trying to find the region mask based on edges detected.
+2. Not hardcoding angles check for left lane line and right land line.
