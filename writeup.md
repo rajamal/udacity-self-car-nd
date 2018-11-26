@@ -27,18 +27,18 @@ Delivarables
 My Pipeline is explained in the series of steps below with intermediate images for those steps.
 
 1. Gray Scale Conversion
-![Gray Scale image](./intermediate/gray_solidWhiteRight.jpg")
+![Gray Scale image](./intermediate/gray_solidWhiteRight.jpg)
 
 2. Gaussian smoothing
-![Smoothened image](./intermediate/smooth_solidWhiteRight.jpg")
+![Smoothened image](./intermediate/smooth_solidWhiteRight.jpg)
 3. Canny Edge detection
-![Edges](./intermediate/edges_solidWhiteRight.jpg")
+![Edges](./intermediate/edges_solidWhiteRight.jpg)
 4. Masking Interesting polygon region
-![Masked edges](./intermediate/masked_edges_solidWhiteRight.jpg")
+![Masked edges](./intermediate/masked_edges_solidWhiteRight.jpg)
 5. Hough transform
-![Hough Transformed](./intermediate/hough_solidWhiteRight.jpg")
+![Hough Transformed](./intermediate/hough_solidWhiteRight.jpg)
 6. Drawing annotated images
-![Gray Scale](./intermediate/annotated_solidWhiteRight.jpg")
+![Gray Scale](./intermediate/annotated_solidWhiteRight.jpg)
 
 
 
